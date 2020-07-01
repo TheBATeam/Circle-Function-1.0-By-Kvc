@@ -1,0 +1,32 @@
+
+ This function will simply print a GUI circle on console window.
+ It will help in making batch files little more advanced and effective.
+ This file uses 'batbox.exe' plugin for printing circles fastly on console.
+
+ Syntax: call Circle [X] [Y] [Radius] [Character | Character Code] [color] [Result]
+ Syntax: call Circle [help | /? | -h | -help]
+ Syntax: call Circle ver
+
+ Where:-
+
+ X			: It is the X Co-ordinate of the center of the circle.
+ Y			: It is the Y Co-ordinate of the center of the circle.
+ Radius			: The radius value of the required circle.
+ Char | Char_Code	: It maybe either Directly the character or the ASCII
+			  Value of the Character.
+ Color			: The color of the circle.
+ Result			: No need of always specifying this parameter, it is a 
+			  special case parameter.In any case, if you needed the
+			  code of the circle instead of directly printing it on
+			  console, then you can specify this parameter, and the
+			  respective code for the circle will be saved into the
+			  variable named in this parameter...
+
+ Example: Call Circle 15 15 5 111 0a
+ Example: Call Circle 15 15 5 o 0a
+ Example: Call Circle 15 15 5 111 0a _Result
+ 
+ Now, you can execute the code saved in '_Result' variable, using 'Batbox.exe'
+ file...
+ www.thebateam.org
+ #TheBATeam
